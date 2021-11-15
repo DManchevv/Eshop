@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/navbar.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+	<link rel="stylesheet" href="../css/searchbar.css">
+</head>
+<body class="dark">	
+
+	<div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+					
+						<a class="navbar-brand" target="_blank"><img src="https://cdn.discordapp.com/attachments/491681614359953408/909146883971244062/eshoplogo.png" alt=""></a>	
+						
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+								
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+									<a class="nav-link" href="#">Начало</a>
+								</li>
+                                <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Продукти</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Телевизори</a>
+										<a class="dropdown-item" href="#">Настолни Компютри</a>
+										<a class="dropdown-item" href="#">Лаптопи</a>
+										<a class="dropdown-item" href="#">Смартфони</a>
+										<a class="dropdown-item" href="#">Таблети</a>
+                                        <div class="dropdown-submenu">
+										    <a class="dropdown-item dropdown-toggle submenu" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Компютърна периферия</a>
+                                            <div class="dropdown-menu shadow">
+                                                <a class="dropdown-item" href="#">Мишки</a>
+                                                <a class="dropdown-item" href="#">Клавиатури</a>
+                                                <a class="dropdown-item" href="#">Уеб камери</a>
+                                                <a class="dropdown-item" href="#">Микрофони</a>
+												<a class="dropdown-item" href="#">Слушалки</a>
+                                            </div>
+                                        </div>
+										<div class="dropdown-submenu">
+										    <a class="dropdown-item dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Хардуерни компоненти</a>
+                                            <div class="dropdown-menu shadow">
+                                                <a class="dropdown-item" href="#">Дънни платки</a>
+                                                <a class="dropdown-item" href="#">RAM памети</a>
+                                                <a class="dropdown-item" href="#">Твърди дискове</a>
+                                                <a class="dropdown-item" href="#">SSD</a>
+												<a class="dropdown-item" href="#">Видео карти</a>
+												<a class="dropdown-item" href="#">Процесори</a>
+                                            </div>
+                                        </div>
+									</div>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">За нас</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Контакти</a>
+									<div class="dropdown-menu">
+										<a class="dropdown-item" href="#">Action</a>
+										<a class="dropdown-item" href="#">Another action</a>
+										<a class="dropdown-item" href="#">Something else here</a>
+										<a class="dropdown-item" href="#">Another action</a>
+									</div>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Влез в акаунта си</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="../html/register.html">Регистрирай се</a>
+								</li>
+                                <li>
+                                    <div id="switch" class="switched">
+                                        <div id="circle"></div>
+                                    </div>	
+                                </li>
+							</ul>
+						</div>
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container position-inline">
+		<div class="height">
+			<div>
+				<div class="search"><i class="fa fa-search"></i><input type="text" class="form-control" placeholder="С какво може да Ви помогнем?"> <button class="btn btn-primary">Потърси</button> </div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid section1 d-flex justify-content-around">
+		<img src="../images/megaSale.png"/>
+	</div>
+	<div class="container-fluid section2 d-flex flex-column">
+		<h1>Офертите на деня</h1>
+		<div class="container-fluid d-flex flex-row top-offers justify-content-around">
+			<div class="col-md-2 d-flex flex-column">
+				<img src="../images/black_friday.jpg"/>
+				<div>
+					<p>Ime na produkt, marka, opisanie</p>
+					<p>00.00 lv</p>
+				</div>
+			</div>
+			<div class="col-md-2 d-flex flex-column">
+				<img src="../images/black_friday.jpg"/>
+				<div>
+					<p>Ime na produkt, marka, opisanie</p>
+					<p>00.00 lv</p>
+				</div>
+			</div>
+			<div class="col-md-2 d-flex flex-column">
+				<img src="../images/black_friday.jpg"/>
+				<div>
+					<p>Ime na produkt, marka, opisanie</p>
+					<p>00.00 lv</p>
+				</div>
+			</div>
+			<div class="col-md-2 d-flex flex-column">
+				<img src="../images/black_friday.jpg"/>
+				<div>
+					<p>Ime na produkt, marka, opisanie</p>
+					<p>00.00 lv</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid footer d-flex flex-column">
+		<div class="container-fluid d-flex flex-row justify-content-around">
+			<div class="col-md-3 d-flex flex-column footer-category">
+				<div class="footer-category-header">
+					Връзка с нас
+				</div>
+				<div class="d-flex flex-column">
+					<span>Контакт</span>
+					<span>Недоставена поръчка</span>
+					<span>Проблем при използване на нашите услуги</span>
+				</div>
+			</div>
+			<div class="col-md-3 d-flex flex-column footer-category">
+				<div class="footer-category-header">
+					Eshop
+				</div>
+				<div class="d-flex flex-column">
+					<span>Условия за ползване</span>
+					<span>Често задавани въпроси - F.A.Q</span>
+				</div>
+			</div>
+			<div class="col-md-3 d-flex flex-column footer-category">
+				<div class="footer-category-header">
+					Социални мрежи
+				</div>
+				<div class="d-flex flex-column">
+					<span><i class="fab fa-facebook"></i> Facebook</span>
+					<span><i class="fab fa-instagram"></i> Instagram</span>
+					<span><i class="fab fa-twitter"></i> Twitter</span>
+				</div>
+			</div>
+		</div>
+		<div class="container-fluid d-flex flex-row justify-content-between socials">
+			<div>
+				Copyright <i class="fa fa-copyright" aria-hidden="true"></i>
+			</div>
+			<div>
+				emag.bg
+			</div>
+		</div>
+	</div>
+	<script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" data-auto-a11y="true"></script>
+
+</body>
+</html>
